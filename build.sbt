@@ -8,3 +8,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-testkit" % "2.3.4" % "test",
   "org.scalatest" %% "scalatest" % "2.2.0" % "test"
 )
+
+scalacOptions := Seq(
+  "-deprecation",
+  "-feature"
+)
